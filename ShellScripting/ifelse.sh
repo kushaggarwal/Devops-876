@@ -10,3 +10,4 @@ then
 else
     echo "You are not eligible to vote"
 fi
+
