@@ -1,0 +1,7 @@
+FROM ubuntu
+
+RUN apt-get update
+
+RUN apt-get install nginx git -y
+
+CMD ["echo", "The images is running as a container"]
